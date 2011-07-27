@@ -152,17 +152,9 @@
     <Compile Include="RequestProcessorTests\TestTypes.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Agatha.Castle\Agatha.Castle.csproj">
-      <Project>{76E76FA3-8D0C-4DC3-99F0-95022C4D5E67}</Project>
-      <Name>Agatha.Castle</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Agatha.Common\Agatha.Common.csproj">
       <Project>{53EBF9A4-A518-483A-9842-5E5FBE6495F8}</Project>
       <Name>Agatha.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Agatha.Ninject\Agatha.Ninject.csproj">
-      <Project>{4B1C6050-DC6D-4244-ABC9-DC107C236B81}</Project>
-      <Name>Agatha.Ninject</Name>
     </ProjectReference>
     <ProjectReference Include="..\Agatha.ServiceLayer\Agatha.ServiceLayer.csproj">
       <Project>{273AA4F7-A031-46E3-A6A3-E61E82BD2377}</Project>
@@ -175,10 +167,6 @@
     <ProjectReference Include="..\Agatha.StructureMap\Agatha.StructureMap.csproj">
       <Project>{4F975E3B-2BED-40D1-A8F5-D5FA7030CCAB}</Project>
       <Name>Agatha.StructureMap</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Agatha.Unity\Agatha.Unity.csproj">
-      <Project>{F59367F8-C514-497B-A0F5-480426B697D6}</Project>
-      <Name>Agatha.Unity</Name>
     </ProjectReference>
     <ProjectReference Include="..\TestTypes\TestTypes.csproj">
       <Project>{5C93EA97-3259-4034-90E7-1C0373A02484}</Project>
