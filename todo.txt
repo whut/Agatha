@@ -1,0 +1,13 @@
+do agaty by nie kopiować pliku z kluczem
+
+By znowy robił release.zip
+
+Merged containers
+Lepszy pomysł: zrób ilmergiel połaczone dllki:)
+
+I have another pull proposition, this time a bit controversial:)
+
+ I merged container projects into Agatha.Common. This way there is less projects to compile, so its faster, and less dlls to distribute so it is less 
+troublesome;). I never saw such approach in .NET projects, but it's common in Java (having integration code with other frameworks in one jar instead of separate 
+jars per single other framework).
+
